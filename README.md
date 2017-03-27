@@ -36,3 +36,15 @@ Rupture is based on the classic game "Breakout."
   * Ball speed power-up
   * Paddle length power up
   * Multiple levels
+
+## Math
+  * Distance between 2 points
+
+    ```
+      Dist([x_1, y_1], [x_2, y_2]) = sqrt((x_1 - x_2) ** 2 + (y_1 - y_2) ** 2)
+    ```
+
+  * Magnitude
+  ```
+    Norm([x_1, y_1]) = Dist([0,0], [x_1. y_1])
+  ```
