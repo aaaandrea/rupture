@@ -45,6 +45,6 @@ Rupture is based on the classic game "Breakout."
     ```
 
   * Magnitude
-  ```
-    Norm([x_1, y_1]) = Dist([0,0], [x_1. y_1])
-  ```
+    ```
+      Norm([x_1, y_1]) = Dist([0,0], [x_1. y_1])
+    ```
