@@ -19,11 +19,13 @@ Rupture is based on the classic game "Breakout."
 ### Day 2
   * Create player and render it on the screen
   * Create the player controls
+  * Toggle sound on/off
 
 ### Day 3
   * Add logic to render boxes on the board
   * Add collision detection between ball and blocks
   * Create won/lost condition on the board
+  * Create score logic and render
 
 ### Day 4
   * Add icons for player
