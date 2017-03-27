@@ -11,33 +11,42 @@ Rupture is based on the classic game "Breakout."
 ## Design Docs
   * [View Wireframes](https://github.com/adelrio1/rupture/tree/master/docs/Wireframes)
 
-## Architecture
-
-
 ## Technologies
   * HTML5 Canvas API rendering gameplay
   * Javascript covers the game logic utilizing jQuery for score count.
+  * Webpack will be used to bundle files and components.
+
+## Architecture
+  * game.js for the main game.
+  * game_view.js for rendering the game_view.
+  * paddle.js will render the player.
+  * ball.js for rendering the ball.
+  * object.js for collision logic.
 
 ## Implementation Timeline
 ### Day 1
-  * Create title/boxes that will contain the screen
-  * Render an object on the canvas
+  * Render starting screen
+  * Render game board canvas
+  * Render a brick on the canvas
+  * Webpack
+  * Configure component files
 
 ### Day 2
-  * Create player and render it on the screen
-  * Create the player controls
+  * Create player (paddle) and render it on the screen
+  * Create the player controls (left and right movement)
   * Toggle sound on/off
 
 ### Day 3
   * Add logic to render boxes on the board
   * Add collision detection between ball and blocks
-  * Create won/lost condition on the board
+  * Create won/lost conditions on the board
   * Create score logic and render
 
 ### Day 4
   * Add icons for player
   * Add icons for boxes
   * Create controls for game start/pause/reset
+  * Stylize to look more like Breakout
 
 ## Bonus
   * Ball speed power-up
