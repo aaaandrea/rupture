@@ -11,6 +11,13 @@ Rupture is based on the classic game "Breakout."
 ## Design Docs
   * [View Wireframes](https://github.com/adelrio1/rupture/tree/master/docs/Wireframes)
 
+## Architecture
+
+
+## Technologies
+  * HTML5 Canvas API rendering gameplay
+  * Javascript covers the game logic utilizing jQuery for score count.
+
 ## Implementation Timeline
 ### Day 1
   * Create title/boxes that will contain the screen
