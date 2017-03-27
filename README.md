@@ -7,10 +7,9 @@ Rupture is based on the classic game "Breakout."
   * Win and lose
   * View score
   * Toggle sound on/off
-  * Hosting on Heroku
 
 ## Design Docs
-  * [View Wireframes]()
+  * [View Wireframes](https://github.com/adelrio1/rupture/tree/master/docs/Wireframes)
 
 ## Implementation Timeline
 ### Day 1
